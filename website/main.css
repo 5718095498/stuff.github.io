@@ -1,0 +1,125 @@
+#video{
+	height:500px;
+	width:95%;
+	border:10px ridge blue;
+	background-color:rgb(255,160,72);	
+}
+#footer{
+	color: #000099;
+	text-align: center;
+		height:50px ;
+	width:95%;
+	border:10px double blue;
+	background-color:rgb(255,160,72);
+	margin-top:25px;
+}
+.fun{
+	color:orange;
+	font-size: 20px;
+}
+.title{
+	color:rgb(255,91,86);
+	font-size: 3em;
+}
+#body{
+	background-color:rgb(65,113,255);
+}
+#submit{
+	height: 30px;
+	width: 90px;
+	color: purple;
+	background-color:blue;
+	border-radius: 15px;
+	border:blue;
+	font-size: 100%;
+}
+
+}
+.link{
+	font-size: 2.0em;
+	color:#e6005c;
+	font-weight: bold;
+	text-align: center;
+}
+#one{
+	height: 150px;
+	width: 150px;
+	background-color: blue;list-style-type:none;
+display:inline;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+	position: relative;
+	top: 750px;
+}
+#two {
+height: 150px;
+width: 150px;
+background-color: green;
+text-align: center;
+display: inline-block;
+position: absolute;
+z-index: 2;
+}
+
+#three {
+height: 150px;
+width: 150px;
+background-color: orange;
+text-align: center;
+display: inline-block;
+position: fixed;
+left: 25%
+} 
+#background-h{
+	height: 2048;
+}
+.jugernaught{
+margin-bottom:50px;	
+}
+.navitem{
+	list-style-type:none;
+display:inline; 
+	margin-right: .3em;
+	padding: 2px 5px;
+}
+#navmenu{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+a:link{ 
+color:blue; 
+} 
+
+a:visited{ 
+color:purple; 
+} 
+
+a:hover{ 
+color:yellow; 
+} 
+
+a:active{ 
+color:green; 
+} 
+.rightside{
+	float: right;
+	width: 45%;
+	margin-top: 15px;
+	border: 10px solid green;
+	padding:10px;
+	height:800px;
+}
+.leftside{
+	float: left;
+	width: 45%;	
+	border: 10px solid green;
+	padding:10px;
+	margin-top: 15px;
+	height:800;
+}
+.clearfloat{
+	clear:both;
+}

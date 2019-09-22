@@ -1,0 +1,115 @@
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Warcraft 2</title>
+	<script>
+		function banner(){
+			var text=confirm("You found it!");
+			return text;
+}
+			function answer(){
+				var radio = document.getElementsByName("trivia");
+				var selection = false;
+				var message = "";
+				for( var i = 0; i < radio.length; i++) {
+					if(radio[i].value == "yes" && radio[i].checked == true){
+					selection = true
+				}
+			}
+			if(selection == true) {
+				message = message + "<b><p style='color:green'>way to go!</p></b>";
+				} else {
+					message = message + "<b><p style='color:red'>try again.</p></b>";
+				}
+				document.getElementById("response").innerHTML = message;
+			}
+		
+	</script>
+</head>
+
+<body id="body">
+	<a onclick="return banner()" href="https://simplycoding.org/code-dungeon">
+	<marquee class="title">
+Warcraft 
+</marquee>
+</a>
+<nav>
+	<ul id="navmenu">
+		<li  class="navitem"><a href="images.html">random images </a></li>
+		<li  class="navitem"><a href="game.html">random games </a></li>
+		<li  class="navitem"><a href="videos.html">random videos </a></li>
+		<li  class="navitem"><a href="index.html">warcraft 2 </a></li>
+		<!--make websites-->
+	</ul>
+</nav>
+<hr>
+<center>
+	<h2>
+	<p>
+		<i>To win this game you have to attack other people or computers.</i>
+	</p>
+</h2>
+<iframe id="video" src="https://www.youtube.com/embed/pFuyg5IynA0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div>(video of me playing warcraft)</div>
+</center>
+<div class="rightside">
+<div class="trivia">
+<h2> Warcraft 2 trivia question.</h2>
+<p>
+	What is the max level for an orge, not an ogre-mage?
+</p>
+<form>
+	<div id="response"></div>
+	<input type="radio" name="trivia" value="no">level 2<br>
+	<input type="radio" name="trivia" value="yes">level 5<br>
+	<input type="radio" name="trivia" value="no">level 20<br>
+	<input type="radio" name="trivia" value="no">level 6<br>
+	<input onclick="answer()" type="button" id="submit" value="check">
+</form>
+</div>
+<div class="wrap-list">
+	The orcs below are listed from (1) best at fighting to (6) worst at fighting.(not including boats)
+	<ol>
+		<li class="fun">orge-mage</li>
+<li class="fun">death knight</li>
+<li class="fun">orge</li>
+<li class="fun">grunt</li>
+<li class="fun">ballista</li>
+<li class="fun">peon</li>
+	</ol>
+	The humans are listed below from (1) best at fighting to (6) worst at fighting.(not including boats)
+<ol>
+	<li class="fun">palidan</li>
+	<li class="fun">mage</li>
+	<li class="fun">knight</li>
+	<li class="fun">footmen</li>
+	<li class="fun">catapult</li>
+	<li class="fun">pheasent</li>
+</ol>
+</div>
+</div>
+<div class="leftside">
+<p>
+	The most powerful boat of the humans is the battleship
+</p>
+<img width= "300px" src="http://classic.battle.net/images/battle/war2/images/units/Battleship-1.gif">
+<p>
+	The  most powerful boat of the orcs is the jugernaught
+</p>
+<img width= "300px" src="http://classic.battle.net/images/battle/war2/images/units/Battleship-2.gif" class="jugernaught">
+</div>
+<div class="clearfloat"></div>
+<hr>
+
+<a target ="_blank"href="http://classic.battle.net/war2/units/gsdt.shtml"><span class="link">Click here to learn more about Warcraft 2</span></a>
+
+<footer id="footer">Created By:Bowen</footer>
+<h7>
+<div>
+	click on some orange words to go to some more games
+</body>
+</div>
+</h7>
+</html>
